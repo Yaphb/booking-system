@@ -4,6 +4,8 @@ A modern, minimalist room booking application built with React, Express, and Soc
 
 ![Booking System](https://cdn.bluent.com/images/3d-bedroom-designs.webp?w=1200&auto=format&fit=crop&q=80)
 
+Hosting on https://minimalbook.onrender.com
+
 ## Features
 
 - **Room Browsing** - Browse 8 room types: Executive Suite, Standard Room, Conference Room, Studio Apartment, Family Suite, Penthouse, Cozy Single, and Meeting Room B
