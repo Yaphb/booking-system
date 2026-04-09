@@ -1,22 +1,21 @@
-1. Local Testing via CMD/CLI
-You can download this exact code and run it on your computer:
-Click the Settings (gear icon) in AI Studio and select Export to ZIP (or export to GitHub).
-Extract the folder, open your CMD/CLI, and navigate into the folder.
-Ensure you have Node.js installed.
-Run the following commands:
-code
-Bash
-npm install
-npm run dev
-Open http://localhost:3000 in your browser.
+1. Run Locally (CMD/CLI)
 
-2. Free Internet Hosting
-To host this full-stack app (React + Node.js backend) on the internet for free, I recommend Render.com:
-Push your exported code to a GitHub repository.
-Create a free account on Render.
-Click New + -> Web Service and connect your GitHub repo.
-Use the following settings:
-Environment: Node
-Build Command: npm install && npm run build
-Start Command: npm start
-Render will give you a free live URL (e.g., your-booking-app.onrender.com).
+* Export/download code from AI Studio
+* Extract and open folder in CMD
+* Install dependencies: `npm install`
+* Start app: `npm run dev`
+* Open: [http://localhost:3000](http://localhost:3000)
+
+2. Free Hosting (Render)
+
+* Push code to GitHub
+* Create account on Render
+* Create new Web Service
+* Settings:
+
+  * Build: `npm install && npm run build`
+  * Start: `npm start`
+* Get live URL (e.g., your-app.onrender.com)
+
+Website hosting on:
+https://dashboard.render.com/web/srv-d7b07kkvjg8s73ep5beg/deploys/dep-d7b0d0ia214c73ci4d00?r=2026-04-08%4007%3A39%3A50%7E2026-04-08%4007%3A42%3A40
